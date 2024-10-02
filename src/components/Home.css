@@ -1,0 +1,29 @@
+.home-banner {
+    /* background-image: url('banner.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .cta-btn {
+    background-color: #f4c542;
+    color: #1e3a58;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #f2b32c;
+  }
+  

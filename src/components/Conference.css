@@ -1,0 +1,16 @@
+.conference-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .conference-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .conference-section ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  

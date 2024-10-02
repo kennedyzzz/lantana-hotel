@@ -1,0 +1,16 @@
+.restaurant-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .restaurant-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .restaurant-section ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
