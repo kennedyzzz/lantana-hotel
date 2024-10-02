@@ -1,5 +1,5 @@
-import React from 'react';
-import './Rooms.css';
+import React from "react";
+import "./Rooms.css";
 
 function Rooms() {
   return (
@@ -9,17 +9,14 @@ function Rooms() {
         <div className="room-card">
           <h3>Standard Room</h3>
           <p>Comfortable, affordable rooms with basic amenities.</p>
-          <button>Book Now</button>
         </div>
         <div className="room-card">
           <h3>Deluxe Room</h3>
           <p>Spacious and stylish with additional amenities.</p>
-          <button>Book Now</button>
         </div>
         <div className="room-card">
           <h3>Executive Room</h3>
           <p>Luxury experience with top-tier service and comfort.</p>
-          <button>Book Now</button>
         </div>
       </div>
     </div>
