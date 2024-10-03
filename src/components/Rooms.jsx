@@ -19,6 +19,7 @@ function Rooms() {
           <p>Luxury experience with top-tier service and comfort.</p>
         </div>
       </div>
+      <div className="blank-space"></div>
     </div>
   );
 }

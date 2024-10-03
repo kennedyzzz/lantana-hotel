@@ -1,10 +1,36 @@
 .contact-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #fff;
-  }
-  
-  .contact-section p {
-    margin: 10px 0;
-  }
-  
+  background-image: url('./images/IMG_3314.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #f4c542;
+  text-align: center;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-section p:nth-child(3) {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.contact-section p:hover {
+  color: #f4c542;
+  transition: color 0.3s ease;
+}

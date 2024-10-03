@@ -4,7 +4,7 @@ import "./Restaurant.css";
 function Restaurant() {
   return (
     <div id="restaurant" className="restaurant-section">
-      <h2>Our Restaurant</h2>
+      <h2>Our Restaurant `n` Bar</h2>
       <p>
         Enjoy an Extensive wide selection of special meals, prepared according
         to your individual preferences and lifestyles in an all centered menu.

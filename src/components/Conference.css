@@ -1,16 +1,47 @@
 .conference-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #f4f4f4;
-  }
-  
-  .conference-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .conference-section ul li {
-    margin: 10px 0;
-    font-size: 1.2em;
-  }
-  
+  background-image: url('./images/IMG_3618.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  height: 110vh;
+}
+
+.conference-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #f4c542;
+  cursor: pointer;
+}
+
+.conference-section p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.conference-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.conference-section ul li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.conference-section ul li::before {
+  content: "• ";
+  color: #f4c542;
+  font-size: 1.5rem;
+  padding-right: 5px;
+}

@@ -1,14 +1,16 @@
 .navbar {
     background-color: #1e3a58;
-    padding: 15px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
   }
   
   .navbar-logo {
     color: #f4c542;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    margin-left: 10px;
   }
   
   .navbar-links {
@@ -28,5 +30,13 @@
   
   .navbar-links a:hover {
     color: #f4c542;
+  }
+
+  .navbar-slogan {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #f4c542;
+    margin-left: 10px;
+
   }
   

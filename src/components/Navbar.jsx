@@ -4,7 +4,10 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="navbar-logo">Lantana Hotel</h2>
+      <div className="navbar-brand">
+        <h2 className="navbar-logo">Lantana Hotel</h2>
+        <h4 className="navbar-slogan">Eat, Drink, Sleep</h4>
+      </div>
       <ul className="navbar-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#rooms">Accommodation</a></li>
